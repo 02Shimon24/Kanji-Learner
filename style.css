@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+}
+
+.h1{
+    flex: 1;
+    text-align: center;
+    background-color:#ff0000;
+    padding: 10px;
+}
+
+.kanji_level{
+    color: black;
+    text-decoration: none;
+}
+
+.kanji_level:hover{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.kanji_level.active{
+    font-size: larger;
+    font-weight: bold;
+}   
+
+.kanji_list{
+    display: flex;
+    width: 100%;
+    flex: 2;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table{
+    overflow-x: auto;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0; /* Centers the table within the div */
+    table-layout: fixed;
+}
+
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px; /* Adds spacing inside cells */
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Centers text vertically */
+    font-size: 15px;
+}
+
+th{
+    background-color: #ff0000;
+}
+
